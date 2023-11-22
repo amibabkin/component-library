@@ -1,5 +1,39 @@
-@import url("../../assets/fonts/fonts.css");
+.button {
+  width: 189px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 200ms ease-in-out;
+}
 
-* {
-  font-family: 'Roboto', sans-serif;
-};
+.button_primary {
+  background-color: #4263EB;
+}
+.button_secondary {
+  background-color: var(--purple);
+}
+.button_alternate {
+  color: var(--grey-4);
+  border: 1px solid var(--grey-3);
+  background-color: #ffffff;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.button_primary:hover {
+  background-color: #2342C0;
+}
+.button_secondary:hover {
+  background-color: #5028C6;
+}
+.button_alternate:hover {
+  border: 1px solid #212429;
+}
