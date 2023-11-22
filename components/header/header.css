@@ -1,1 +1,10 @@
-.header {}
+.header {
+  padding: 96px 0 77px;
+  background: #FFF;
+}
+
+.header__title {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.28;
+}

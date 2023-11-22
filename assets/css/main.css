@@ -1,6 +1,10 @@
 @import url("../fonts/fonts.css");
+@import url("../../components/page/page.css");
 @import url("../../components/header/header.css");
+@import url("../../components/preview/preview.css");
+@import url("../../components/card/card.css");
 @import url("../../components/footer/footer.css");
+@import url("../../components/container/container.css");
 
 :root {
   --white: #ffffff;
@@ -21,6 +25,37 @@
   --secondary: var(--purple);
 }
 
-* {
+body {
   font-family: 'Roboto', sans-serif;
 }
+
+html, body {
+  height: 100%;
+}
+
+.layout-container {
+  padding: 30px;
+}
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, address, img, strong, sub, sup,
+ol, ul, li, form, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, section, summary,
+audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
