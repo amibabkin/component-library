@@ -35,6 +35,12 @@ html, body {
 
 .layout-container {
   padding: 30px;
+  height: 100%;
+}
+
+.layout-container_tooltip {
+  padding-top: 100px;
+  padding-left: 100px;
 }
 
 html, body, div, span,
