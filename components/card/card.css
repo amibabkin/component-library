@@ -24,6 +24,10 @@
   max-width: 284px;
 }
 
+.card__component_histogram {
+  max-width: 300px;
+}
+
 .card__titles {}
 
 .card__title {
@@ -44,8 +48,6 @@
   line-height: normal;
 }
 
-.card__tooltip-card-preview {}
-
 .card__calendar-card-preview {
   font-size: 10px;
 }
@@ -54,4 +56,18 @@
   font-size: 10px;
   display: block;
   position: relative;
+}
+
+.card__histogram-card-preview {
+  font-size: 14px;
+}
+
+@media (max-width: 360px) {
+  .card__component_modal {
+    max-width: 254px;
+  }
+
+  .card__component_histogram {
+    max-width: 270px;
+  }
 }
