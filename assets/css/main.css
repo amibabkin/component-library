@@ -7,6 +7,9 @@
 @import url("../../03-lection1/05-tooltip/tooltip.css");
 @import url("../../03-lection1/06-calendar/calendar.css");
 @import url("../../03-lection1/07-modal/modal.css");
+@import url("../../03-lection1/04-histogram/histogram.css");
+@import url("../../03-lection1/01-button/button.css");
+@import url("../../03-lection1/08-avatar/avatar.css");
 @import url("../../components/card/card.css");
 
 :root {
