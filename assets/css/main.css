@@ -5,6 +5,8 @@
 @import url("../../components/card/card.css");
 @import url("../../components/footer/footer.css");
 @import url("../../components/container/container.css");
+@import url("../../03-lection1/05-tooltip/tooltip.css");
+@import url("../../03-lection1/06-calendar/calendar.css");
 
 :root {
   --white: #ffffff;
