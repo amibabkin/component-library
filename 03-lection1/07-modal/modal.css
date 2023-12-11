@@ -43,8 +43,10 @@
   line-height: 1.5;
 }
 
-.modal__cross {
+.modal__x {
   position: absolute;
+  width: 24px;
+  height: 24px;
   top: 12px;
   right: 12px;
   cursor: pointer;
