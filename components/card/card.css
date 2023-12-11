@@ -2,6 +2,7 @@
   display: grid;
   grid-template-rows: 1fr 50px;
   justify-items: center;
+  align-items: center;
   width: 350px;
   height: 367px;
   padding-bottom: 32px;
@@ -17,6 +18,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card__component_modal {
+  max-width: 284px;
 }
 
 .card__titles {}
@@ -39,6 +44,14 @@
   line-height: normal;
 }
 
+.card__tooltip-card-preview {}
+
 .card__calendar-card-preview {
   font-size: 10px;
+}
+
+.card__modal-card-preview {
+  font-size: 10px;
+  display: block;
+  position: relative;
 }
