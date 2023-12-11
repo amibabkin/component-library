@@ -16,13 +16,13 @@
 
 .modal__inner {
   display: inline-block;
-  padding: 40px;
+  padding: 2.5em;
   background: rgba(196, 196, 196, 0.5);
 }
 
 .modal__content {
   position: relative;
-  padding: 30px 40px 33px 40px;
+  padding: 1.875em 2.5em 2em 2.5em;
   border-radius: 8px;
   background: #FFF;
 }
@@ -30,7 +30,7 @@
 .modal__title {
   margin-bottom: 14px;
   color: #334D6E;
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 600;
   line-height: 1.2;
 }
@@ -39,7 +39,7 @@
   width: 100%;
   max-width: 342px;
   color: var(--grey-4);
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.5;
 }
 

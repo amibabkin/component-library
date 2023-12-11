@@ -2,11 +2,12 @@
 @import url("../../components/page/page.css");
 @import url("../../components/header/header.css");
 @import url("../../components/preview/preview.css");
-@import url("../../components/card/card.css");
 @import url("../../components/footer/footer.css");
 @import url("../../components/container/container.css");
 @import url("../../03-lection1/05-tooltip/tooltip.css");
 @import url("../../03-lection1/06-calendar/calendar.css");
+@import url("../../03-lection1/07-modal/modal.css");
+@import url("../../components/card/card.css");
 
 :root {
   --white: #ffffff;
