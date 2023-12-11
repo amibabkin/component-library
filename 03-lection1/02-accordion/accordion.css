@@ -10,7 +10,8 @@
 }
 
 .accordion__summary {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   color: var(--black);
   font-size: 16px;
   font-weight: 400;
@@ -22,8 +23,9 @@
   display: none;
 }
 
-.accordion__marker {
-
+.accordion__arrow {
+  width: 24px;
+  height: 24px;
 }
 
 .accordion__description {
