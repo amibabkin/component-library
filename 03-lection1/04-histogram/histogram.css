@@ -1,5 +1,6 @@
 .histogram {
-  padding: 16px 24px 24px 24px;
+  width: 100%;
+  padding: 1em 1.5em 1.5em 1.5em;
   border: 1px solid var(--grey-3);
   border-radius: 8px;
 }
@@ -7,7 +8,7 @@
 .histogram__header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 39px;
+  margin-bottom: 2.4em;
 }
 
 .histogram__orders {}
@@ -21,11 +22,12 @@
 
 .histogram__amount {
   color: var(--black);
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 1.3;
 }
 
 .histogram__viewall {
+  font-size: 1em;
   color: #4263EB;
   line-height: 1.5;
   text-decoration: none;
