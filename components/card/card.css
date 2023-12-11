@@ -1,7 +1,44 @@
 .card {
+  display: grid;
+  grid-template-rows: 1fr 50px;
+  justify-items: center;
   width: 350px;
   height: 367px;
+  padding-bottom: 32px;
+  box-sizing: border-box;
   border-radius: 12px;
   background: #FFF;
   box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
+}
+
+.card__component {
+  max-width: 202px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__titles {}
+
+.card__title {
+  margin-bottom: 6px;
+  color: var(--black);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card__subtitle {
+  color: var(--black);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.card__calendar-card-preview {
+  font-size: 10px;
 }
